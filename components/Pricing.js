@@ -23,21 +23,20 @@ const Pricing = () => {
               variants={scrollAnimation}
               className="text-2xl sm:text-3xl lg:text-4xl font-medium text-black-600 leading-relaxed"
             >
-              Choose Your Plan
+              Our Top Products 
             </motion.h3>
             <motion.p
               variants={scrollAnimation}
               className="leading-normal w-10/12 sm:w-7/12 lg:w-6/12 mx-auto my-2 text-center"
             >
-              Let's choose the package that is best for you and explore it happily
-              and cheerfully.
+              Choose from our best selling products
             </motion.p>
           </ScrollAnimationWrapper>
           <div className="grid grid-flow-row sm:grid-flow-col grid-cols-1 sm:grid-cols-3 gap-4 lg:gap-12 py-8 lg:py-12 px-6 sm:px-0 lg:px-6">
             <ScrollAnimationWrapper className="flex justify-center">
               <motion.div
                 variants={scrollAnimation}
-                className="flex flex-col justify-center items-center border-2 border-gray-500 rounded-xl py-4 px-6 lg:px-12 xl:px-20"
+                className="flex flex-col justify-center items-center border-2 border-gray-500 bg-white rounded-xl py-4 px-6 lg:px-12 xl:px-20"
                 whileHover={{
                   scale : 1.1,
                   transition: {
@@ -45,34 +44,35 @@ const Pricing = () => {
                   }
                 }}
               >
-                <div className="p-4 lg:p-0 mt-6 lg:mt-16">
+                <div className="p-4 lg:p-0 mt-2 lg:mt-6">
                   <Image
-                    src="/assets/Free.png"
-                    width={145}
-                    height={165}
+                   src="/assets/equipment1.jpg"
+                    width={245}
+                    height={265}
                     alt="Free Plan"
+                    className="rounded-lg"
                   />
                 </div>
                 <p className="text-lg text-black-600 font-medium capitalize my-2 sm:my-7">
-                  Free Plan
+                ELM 2000 – Video Colposcopy
                 </p>
                 <ul className="flex flex-col list-inside pl-6 xl:pl-0 items-start justify-start text-left text-black-500 flex-grow">
                   <li className="relative check custom-list my-2">
-                    Unlimited Bandwitch
+                  SONY ex-view HAD CCD,
                   </li>
                   <li className="relative check custom-list my-2">
-                    Encrypted Connection
+                  1-54x zooming, fast autofocus
                   </li>
                   <li className="relative check custom-list my-2">
-                    No Traffic Logs
+                  Long-life and cold LED light source, 
                   </li>
                   <li className="relative check custom-list my-2">
-                    Works on All Devices
+                  Acetic acid response time indicator,
                   </li>
                 </ul>
                 <div className="flex flex-col w-full justify-center mb-8 flex-none mt-12">
                   <p className="text-2xl text-black-600 text-center mb-4 ">
-                    Free
+                  ৳ 300,000.00
                   </p>
                   <ButtonOutline>Select</ButtonOutline>
                 </div>
@@ -89,37 +89,34 @@ const Pricing = () => {
                   }
                 }}
               >
-              <div className="p-4 lg:p-0 mt-6 lg:mt-16">
+              <div className="p-4 lg:p-0 mt-2 lg:mt-6">
                 <Image
-                  src="/assets/Standard.png"
+                  src="/assets/equipment2.jpg"
                   width={145}
                   height={165}
                   alt="Standard Plan"
+                  className="rounded-lg"
                 />
               </div>
               <p className="text-lg text-black-600 font-medium capitalize my-2 sm:my-7">
-                Standard Plan{" "}
+              DSC-102SD Digital Micro Centrifuge
               </p>
               <ul className="flex flex-col list-inside pl-6 xl:pl-0 items-start justify-start text-left text-black-500 flex-grow">
                 <li className="relative check custom-list my-2">
-                  Unlimited Bandwitch
+                Product of DIGISystem
                 </li>
                 <li className="relative check custom-list my-2">
-                  Encrypted Connection
+                Origin : Taiwan
                 </li>
                 <li className="relative check custom-list my-2">
-                  No Traffic Logs
+                accommodate micro hematocrit rotors
                 </li>
                 <li className="relative check custom-list my-2">
-                  Works on All Devices
-                </li>
-                <li className="relative check custom-list my-2">
-                  Connect Anyware{" "}
-                </li>
+                *Quality certificate: ISO9001, ISO13485</li>
               </ul>
               <div className="flex flex-col w-full justify-center mb-8 flex-none mt-12">
                 <p className="text-2xl text-black-600 text-center mb-4 ">
-                  $9 <span className="text-black-500">/ mo</span>
+                ৳ 120,000.00
                 </p>
                 <ButtonOutline>Select</ButtonOutline>
               </div>
@@ -136,40 +133,34 @@ const Pricing = () => {
                   }
                 }}
               >
-              <div className="p-4 lg:p-0 mt-6 lg:mt-16">
+              <div className="p-4 lg:p-0 mt-2 lg:mt-6">
                 <Image
-                  src="/assets/Premium.png"
+                  src="/assets/equipment3.jpg"
                   width={145}
                   height={165}
                   alt="Premium Plan"
+                  className="rounded-lg"
                 />
               </div>
               <p className="text-lg text-black-600 font-medium capitalize my-2 sm:my-7">
-                Premium Plan{" "}
+              Patient Monitor
               </p>
               <ul className="flex flex-col list-inside pl-6 xl:pl-0 items-start justify-start text-left text-black-500 flex-grow">
                 <li className="relative check custom-list my-2">
-                  Unlimited Bandwitch
+                PRODUCT ID: Winux_0109
                 </li>
                 <li className="relative check custom-list my-2">
-                  Encrypted Connection
+                6 Parameters
                 </li>
                 <li className="relative check custom-list my-2">
-                  No Traffic Logs
+                PINON Brand, Model: PM-80
                 </li>
                 <li className="relative check custom-list my-2">
-                  Works on All Devices
-                </li>
-                <li className="relative check custom-list my-2">
-                  Connect Anyware{" "}
-                </li>
-                <li className="relative check custom-list my-2">
-                  Get New Features{" "}
-                </li>
+                Made in China</li>
               </ul>
               <div className="flex flex-col w-full justify-center mb-8 flex-none mt-12">
                 <p className="text-2xl text-black-600 text-center mb-4 ">
-                  $12 <span className="text-black-500">/ mo</span>
+                ৳ 50,000.00
                 </p>
 
                 <ButtonOutline>Select</ButtonOutline>
@@ -183,46 +174,15 @@ const Pricing = () => {
             <motion.h3
               variants={scrollAnimation}
               className="text-2xl sm:text-3xl lg:text-4xl font-medium text-black-600 leading-relaxed w-9/12 sm:w-6/12 lg:w-4/12 mx-auto">
-              Huge Global Network of Fast VPN{" "}
+              Huge Global Network of Clients
             </motion.h3>
             <motion.p className="leading-normal  mx-auto my-2 w-10/12 sm:w-7/12 lg:w-6/12" variants={scrollAnimation}>
-              See LaslesVPN everywhere to make it easier for you when you move
-              locations.
+              Get in touch with us today for all your medical equipment needs
             </motion.p>
           </ScrollAnimationWrapper>
           <ScrollAnimationWrapper>
             <motion.div className="py-12 w-full px-8 mt-16" variants={scrollAnimation}> 
               <Maps className="w-full h-auto" />
-            </motion.div>
-          </ScrollAnimationWrapper>
-          <ScrollAnimationWrapper>
-            <motion.div className="w-full flex justify-evenly items-center mt-4 flex-wrap lg:flex-nowrap" variants={scrollAnimation}>
-              {/* <Netflix className="h-18 w-auto" /> */}
-              <img
-                src="/assets/Icon/amazon.png"
-                className="h-14 w-auto mt-4 lg:mt-2"
-                alt=""
-              />
-              <img
-                src="/assets/Icon/netflix.png"
-                className="h-14 w-auto mt-2 lg:mt-0"
-                alt=""
-              />
-              <img
-                src="/assets/Icon/reddit.png"
-                className="h-12 w-auto mt-2 lg:mt-0"
-                alt=""
-              />
-              <img
-                src="/assets/Icon/discord.png"
-                className="h-14 w-auto mt-2 lg:mt-0"
-                alt=""
-              />
-              <img
-                src="/assets/Icon/spotify.png"
-                className="h-12 w-auto mt-2 lg:mt-0"
-                alt=""
-              />
             </motion.div>
           </ScrollAnimationWrapper>
         </div>
@@ -237,8 +197,7 @@ const Pricing = () => {
               variants={scrollAnimation}
               className="leading-normal mx-auto mb-2 mt-4 w-10/12 sm:w-7/12 lg:w-6/12"
             >
-              These are the stories of our customers who have joined us with great
-              pleasure when using this crazy feature.
+              These are the stories of our clients who have loved taking our services.
             </motion.p>
           </ScrollAnimationWrapper>
           <ScrollAnimationWrapper className="w-full flex flex-col py-12">
@@ -251,9 +210,9 @@ const Pricing = () => {
               <div className="absolute rounded-xl  py-8 sm:py-14 px-6 sm:px-12 lg:px-16 w-full flex flex-col sm:flex-row justify-between items-center z-10 bg-white-500">
                 <div className="flex flex-col text-left w-10/12 sm:w-7/12 lg:w-5/12 mb-6 sm:mb-0">
                   <h5 className="text-black-600 text-xl sm:text-2xl lg:text-3xl leading-relaxed font-medium">
-                    Subscribe Now for <br /> Get Special Features!
+                    Subscribe for our <br /> News Letter!
                   </h5>
-                  <p>Let's subscribe with us and find the fun.</p>
+                  <p>Let's subscribe with us and receive insightful information to your email weekly.</p>
                 </div>
                 <ButtonPrimary>Get Started</ButtonPrimary>
               </div>

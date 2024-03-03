@@ -1,4 +1,4 @@
-import Feature from "../components/Feature";
+import Services from "../components/Feature";
 import Pricing from "../components/Pricing";
 import Hero from "../components/Hero";
 import Layout from "../components/Layout/Layout";
@@ -10,7 +10,7 @@ export default function Home() {
       <SeoHead title='LaslesVPN Landing Page' />
       <Layout>
         <Hero />
-        <Feature />
+        <Services />
         <Pricing />
       </Layout>
     </>
