@@ -7,11 +7,17 @@ const Footer = () => {
     <div className='bg-white-300 pt-44 pb-24'>
       <div className='max-w-screen-xl w-full mx-auto px-6 sm:px-8 lg:px-16 grid grid-rows-6 sm:grid-rows-1 grid-flow-row sm:grid-flow-col grid-cols-3 sm:grid-cols-12 gap-4'>
         <div className='row-span-2 sm:col-span-4 col-start-1 col-end-4 sm:col-end-5 flex flex-col items-start '>
-          <div className='text-xl font-bold text-green-500'>Trust Medical Service</div>
+          <div className='text-xl font-bold text-green-500'>
+            Trust Medical Service
+          </div>
           <p className='mb-4'>
-            <strong className='font-medium'>Trust Medical Service</strong> is a private
-            medical equipment reselling company that has unique features and has high security.
+            <strong className='font-medium'>Md Rockib Hasan</strong>
           </p>
+          <p className='mb-4'>
+            BJ Tower, ECB Chatter, Dhaka Cantonment, Dhaka-1206
+          </p>
+          <p className='mb-0'>Phone: +88 01712899034 </p>
+          <p className='mb-4'>Email: abrockib@gmail.com</p>
           <div className='flex w-full mt-2 mb-8 -mx-2'>
             <div className='mx-2 bg-white-500 rounded-full items-center justify-center flex p-2 shadow-md'>
               <Facebook className='h-6 w-6' />
